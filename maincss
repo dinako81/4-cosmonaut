@@ -1,11 +1,18 @@
         header {
-        background-color: yellow; width: 800px;  margin-left: calc(50% - 400px);
+        width: 800px;  
+        margin-left: calc(50% - 400px);
+        background-color: yellow
+
         }     
 
         main {
-        background-color: green; width: 800px; margin-left: calk(50% - 400px);
+        width: 800px; 
+        margin-left: calc(50% - 400px);
+        background-color: green;
         }
 
         footer {
-        background-color: red; width: 800px; margin-left: calk(50% - 400px);
+        width: 800px; 
+        margin-left: calc(50% - 400px);
+        background-color: red;
         }
