@@ -1,12 +1,15 @@
 {
   "name": "4-kosmonautas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pirmieji",
   "main": "index.js",
   "scripts": {
+    "dev": "dead-server --host=localhost --host=4204",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "html"
+  ],
   "author": "Dina <https://github.com/dinako81>",
   "license": "ISC",
   "devDependencies": {
