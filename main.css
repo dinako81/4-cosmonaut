@@ -11,9 +11,10 @@ body {
 header, main,
         footer  {
             background-color: pink;
-            width: 800px;
-            margin-left: calc(50%-400px);
+            width: 1000px;
+            margin-left: calc(50%-500px);
             margin-bottom: 30px;
+            display: inline-block;
         
 }
 
@@ -21,7 +22,7 @@ header{
             margin-top: 40px;
         }
 
-img {
+header > img {
     width: 100px;
     height: 40px;
     float: left;
@@ -33,21 +34,65 @@ img {
 nav {
     float:right;
     background-color: aqua;
+    color: #000;
 }
 
 a{
     display: inline-block;
-    margin: 0px;
-    color: #000;
-    font-size: 20px;
+    margin: 10px;
+    color: #000
+    font-size: 0px;
     text-decoration: none;
-}
+    
+    }
 
-a:first-child {
-    margin-left: 0
-}
+nav > a:first{
+    margin-left: 0px
+    
 
+}
 a:hover {
     text-decoration: underline;
     color: red;
 }
+
+main{
+
+}
+ div{
+    width: 40%;
+    float: left;
+
+ }
+
+ h1{
+    font-size: 50px;
+    color: #222222;
+    font-weight: normal;
+
+
+ }
+
+ h1 > span{
+    font-weight: bold;
+    display: block;
+ }
+  p{
+font-size: 20px;
+
+  }
+
+ div > a {
+    background-color: red;
+
+ }
+
+ div > a:last-child {
+    background-color: blue;
+ }
+
+main > img {
+    width: 55%;
+    float: right;
+}
+
