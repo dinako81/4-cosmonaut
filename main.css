@@ -83,12 +83,30 @@ font-size: 20px;
   }
 
  div > a {
-    background-color: red;
-
+    float: left;
+    display: inline-block;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #554485;
+    color: #fff;
+    font-size: 16x;
+    line-height: 1.3em;
+    border-radius: 1.55em;
+    border: 0.15em #554485 solid;
  }
 
  div > a:last-child {
-    background-color: blue;
+    background-color: #fff;
+    color: #554485;
+     }
+
+ div > a:hover {
+    box-shadow: 0px 5px 10px 0px rgb(0, 0, 0, 50%);  
  }
 
 main > img {
