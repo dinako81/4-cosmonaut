@@ -1,26 +1,19 @@
-  
- *{
-    font-size: 30px;
-}
-
 body {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
   
-header, main,
-        footer  {
-            background-color: pink;
-            width: 1000px;
-            margin-left: calc(50%-500px);
-            margin-bottom: 30px;
-            display: inline-block;
-        
+header, main, footer  {
+    display: inline-block;
+    background-color: pink;
+    width: 1000px;
+    margin-left: calc(50%-500px);
+    margin-bottom: 30px;       
 }
 
 header{
-            margin-top: 40px;
-        }
+     margin-top: 40px;
+}
 
 header > img {
     width: 100px;
@@ -28,64 +21,58 @@ header > img {
     float: left;
     object-fit: contain;
     object-position: left;
-    background-color: red;
 }
 
 nav {
-    float:right;
-    background-color: aqua;
-    color: #000;
+    float: right;
+    margin-top: 10 px;
 }
 
-a{
+nav > a {
     display: inline-block;
-    margin: 10px;
-    color: #000
-    font-size: 0px;
+    margin: 2em;
+    color: #000;
+    font-size: 20px;
     text-decoration: none;
+    line-height: 1em;
     
     }
 
 nav > a:first{
     margin-left: 0px
-    
-
 }
+
 a:hover {
     text-decoration: underline;
-    color: red;
 }
 
 main{
 
 }
- div{
+ 
+main > div{
     width: 40%;
     float: left;
-
  }
 
  h1{
     font-size: 50px;
     color: #222222;
     font-weight: normal;
-
-
  }
 
- h1 > span{
+ h1 > span {
     font-weight: bold;
     display: block;
  }
-  p{
+
+  p {
 font-size: 20px;
+}
 
-  }
-
- div > a {
+ main > div > a {
     float: left;
-    display: inline-block;
-    padding: 1em;
+    padding: 0.9em;
     padding-left: 2em;
     padding-right: 2em;
     margin-right: 1em;
@@ -96,7 +83,7 @@ font-size: 20px;
     color: #fff;
     font-size: 16x;
     line-height: 1.3em;
-    border-radius: 1.55em;
+    border-radius: 1.7em;
     border: 0.15em #554485 solid;
  }
 
@@ -114,3 +101,16 @@ main > img {
     float: right;
 }
 
+footer {
+
+}
+
+footer > div {
+    float: left;
+    font-family: ;
+}
+
+footer > p {
+    margin: 0px;
+    float: right;
+}
