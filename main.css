@@ -96,7 +96,8 @@ margin-bottom: 70px;
 
  div > a:hover {
     box-shadow: 0px 5px 10px 0px rgb(0, 0, 0, 50%);  
- }
+    text-decoration: none;
+}
 
 main > img {
     width: 55%;
@@ -106,7 +107,9 @@ main > img {
 main > img:nth-of-type(2) {
     display: none;
     }
-
+main:hover > img {
+    display: none;
+}
 main:hover > img:nth-last-of-type(2) {
     display: block;
 }
@@ -121,7 +124,7 @@ footer {
 
 footer > div {
     float: left;
-    font-family: ;
+    
 }
 
 footer > p {
