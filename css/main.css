@@ -26,7 +26,7 @@ body {
     display: inline-block;
     margin-left: 2em;
     color: #000;
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: none;
     line-height: 1em;
     }
@@ -59,10 +59,10 @@ body {
     background-color: #55337A;
 }
   .description {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 0.7em;
     margin-bottom: 70px;
-    color: #99999B;
+    color: #55337A;
 }
  .button {
     float: left;
@@ -108,7 +108,7 @@ body {
 }
 .socials > .icon {
     margin-right: 1em;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 1em;
     text-decoration: none;
     color: #999;
@@ -123,4 +123,5 @@ body {
     margin: 0;
     float: right;
     color: #525254;
+    font-size: 12px;
 }
