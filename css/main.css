@@ -4,13 +4,12 @@ body {
 }
 .container  {
     display: inline-block;
-    background-color: pink;
     width: 800px;
     margin-left: calc(50% - 400px);
     margin-bottom: 30px;  
 }
-.conainer:first-child{
-     margin-top: 40px;
+.container:first-child {
+     margin-top: 50px;
 }
 .logo {
     height: 40px;
@@ -51,25 +50,19 @@ body {
     font-weight: bold;
     display: block;
  }
- .main-title::before {
+ .main-title::after {
     content: '';
     display: block;
     width: 100px;
-    height: 6px;
+    height: 4px;
+    margin-top: 10px;
     background-color: #55337A;
 }
-.main-title::after {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 6px;
-    background-color: #55337A;
-}
-
   .description {
     font-size: 20px;
     line-height: 0.7em;
     margin-bottom: 70px;
+    color: #99999B;
 }
  .button {
     float: left;
@@ -102,17 +95,14 @@ body {
 .right-column > img {
     width: 100%;
 }
-.right-column > img {
-    width: 100%;
-}
-.right-column > .img-grey,
+.right-column > .img-grey, 
 .right-column:hover > .img-color {
     display: block;
 }
 .right-column > .img-color,
-.right-column:hover > .img-grey {
+.right-column:hover > .img-grey  {
     display: none;
-}  
+}
 .socials {
     float: left;
 }
@@ -132,4 +122,5 @@ body {
 .copyright {
     margin: 0;
     float: right;
+    color: #525254;
 }
